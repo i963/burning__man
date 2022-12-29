@@ -1,0 +1,200 @@
+@import url(https://fonts.googleapis.com/css?family=Anton:regular);
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	box-sizing: border-box;
+}
+input,button,textarea{font-family:inherit;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 500, 700;}
+/* ------------------------------ */
+
+/* html{
+   margin: 0;
+} */
+
+body{
+   margin: 0;
+
+   font-family: 'Anton';
+}
+
+.container {
+   margin: 0 auto;
+   width: 100%;
+} 
+
+.wrapper {
+   max-width: 1250px;
+   margin: 0 auto;
+   padding: 0 40px;
+}
+
+.text {
+   font-size: 14px;
+   line-height: 21px;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+
+   color: #FFFFFF;
+}
+
+.txt{
+   font-family: 'Open Sans';
+}
+
+.title{
+   text-transform: uppercase;
+   color: #000000;
+}
+
+/* Header */
+
+
+.header{
+   top: 55px;
+   left: 0;
+   position: absolute;
+   z-index: 1;
+   width: 100%;
+}
+
+.header__box {
+   display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 50px;
+}
+
+.nav__block {
+   display: flex;
+	align-items: center; 
+}
+
+.nav__logo img{
+   width: 35px;
+   height: 50px;
+}
+
+.nav__menu {
+   display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav__link {
+   padding: 20px 0 0 40px;
+}
+
+.nav__link:first-child {
+   padding-left: 80px;
+}
+
+.nav__tel {
+   padding: 12px 0 17px;
+}
+
+.nav__tel .text {
+   font-size: 17px;
+   line-height: 26px;
+}
+
+/* Home page */
+
+.main {
+   padding-top: 230px;
+   position: relative; 
+   background: url('../img/header__bg.jpg') no-repeat;
+   background-size: cover;  
+}
+
+.main__subtitle {
+   font-size: 30px;
+   line-height: 45px;
+   letter-spacing: 0.1em;
+
+}
+.main__title {
+   padding: 0 0 50px;
+   font-size: 100px;
+   line-height: 151px;
+   letter-spacing: 0.03em;
+}
+
+button {
+   display: inline-block;
+   margin-bottom: 320px;
+   padding: 20px 50px;
+   font-size: 17px;
+   line-height: 26px;
+   text-align: center;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+
+   border: 1px solid rgba(255, 255, 255, 1);
+   color: #FFFFFF;
+   background-color: unset;
+}
+
+.about{
+   background: #E5E5E5;
+   padding: 130px 0 115px;
+}
+
+.about__title {
+   margin-bottom: 80px;
+   font-size: 50px;
+   line-height: 75px;
+}
+.about__box {
+   display: flex;
+   margin: 0 -15px;
+}
+
+.about__block {
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   padding: 0 15px;
+}
+
+.block__item {
+   height: 100%;
+   flex: 1 1 auto;
+
+}
+.block__title {
+   padding: 20px 0 0 0;
+   font-size: 25px;
+   line-height: 38px;
+}
+.block__text {
+   padding: 35px 5px 60px;
+   font-size: 16px;
+   line-height: 26px;
+}
+
+.block__image{
+   display: flex;
+   flex: 0 0 auto;
+   justify-content: space-between;
+}
+
+.footer {
+   background: #E5E5E5;
+}
+
+.footer__box {
+   display: flex;
+   align-items: flex-start;
+   min-height: 115px;
+}
+
+/* добавить адаптив */
+/* погуглить полоски */
+/* модет анимацию? */
