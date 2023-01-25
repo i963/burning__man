@@ -11,83 +11,66 @@
    <link rel="shortcut icon" href="img/logo.svg" type="icon/x-image">
 </head>
 <body>
-   <div class="container">
-      <!-- Header -->
-      <header class="header">
-         <div class="header__wrapper wrapper">
-            <div class="header__box">                  
-                  <nav class="nav__block"> 
-                     <div class="nav__logo">
-                        <img src="img/logo.svg" alt="Just image">
-                     </div>
-                     <div class="nav__menu">
-                        <a href="#" class="nav__link text">Home</a>
-                        <a href="#" class="nav__link text">About</a>
-                        <a href="#" class="nav__link text">Tickets</a>
-                        <a href="#" class="nav__link text">Contacts</a>
-                     </div>
-                  </nav>
-               <nav class="nav__tel">
-                  <a href="#" class="nav__link text">+1 893 839-23-64</a>
-               </nav>
-            </div>
-         </div>
-      </header>
-      <!-- Home page -->
-      <main class="main">
-         <div class="main__wrapper wrapper">
-            <div class="main__box">
-               <div class="main__subtitle text"><p>Not tne event. The life</p></div>
-               <div class="main__title text"><h1>Burning Man</h1></div>
-               <button type="submit">Book the thickets</button>
-            </div>
-         </div>
-      </main>
-      <!-- About -->
-      <div class="about">
-         <div class="about__wrapper wrapper">
-            <div class="about__title title">About the event</div>
-            <div class="about__box">
-               <div class="about__block">
-                  <!-- <div class="block__box"> -->
-                     <div class="block__item">
-                        <div class="block__title title">Rebuilding the society</div>
-                        <div class="block__text txt">
-                           <p>
-                              Burning Man is a network of people inspired by the values reflected in the Ten Principles and united in the pursuit of a more creative and connected existence in the world. Throughout the year we work to build Black Rock City, home of the largest annual Burning Man gathering, and nurture the distinctive culture emerging from that experience. 
-                           </p>
-                        </div>
-                     </div>
-                     <div class="block__image">
-                        <img src="img/img1.jpg" alt="Just image">
-                        <img src="img/img2.jpg" alt="Just image">
-                     </div>
-                  <!-- </div> -->
+
+<div class="container">
+	<header class="header">
+		<div class="header__wrapper">
+			<div class="header__logo">
+				<img src="img/logo.svg" alt="Logo">
+			</div>
+			<div class="header__menu">
+				<div class="menu__burger"><span></span></div>
+				<nav class="menu__body">
+					<ul class="menu__list">
+						<li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+						<li class="menu__item"><a class="menu__link" href="#services" target="_blank">About</a></li>
+						<li class="menu__item"><a class="menu__link" href="#about" target="_blank">Tickets</a></li>
+						<li class="menu__item"><a class="menu__link" href="#contact" target="_blank">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="header__tel">
+				<a href="#" class="tel__link">+1 893 839-23-64</a>
+			</div>                 
+		</div>
+	</header>
+   <main class="main">
+		<section class="intro">
+			<div class="intro__wrapper">
+				<div class="intro__subtitle"><h2>Not tne event. The life</h2></div>
+				<div class="intro__title"><h1>Burning Man</h1></div>
+				<button class="intro__button" type="submit">Book the thickets</button>
+			</div>
+		</section>
+      <section class="about">
+         <div class="about__wrapper">
+            <div class="about__title"><h2>About the event</h2></div>
+            <div class="about__content">
+					<div class="content__item1">
+						<div class="content__title"><h2>Rebuilding the society</h2></div>
+						<div class="content__text"><p>Burning Man is a network of people inspired by the values reflected in the Ten Principles and united in the pursuit of a more creative and connected existence in the world. Throughout the year we work to build Black Rock City, home of the largest annual Burning Man gathering, and nurture the distinctive culture emerging from that experience.</p></div>
+					</div>
+					<div class="content__image1">
+						<img src="img/img1.jpg" alt="Just image">
+						<img src="img/img2.jpg" alt="Just image">
+					</div>
+					<div class="content__item2">
+						<div class="content__title"><h2>This drives us</h2></div>
+						<div class="content__text"><p>Burning Man Project will bring experiences to people in grand, awe-inspiring and joyful ways that lift the human spirit, address social problems, and inspire a sense of culture, community, and civic engagement. Burning Man provides infrastructural tools and frameworks to support local communities in applying the Ten Principles through six interconnected program areas, including Arts, Civic Involvement, Culture, Education, Philosophical Center, and Social Enterprise.</p></div>
                </div>
-               <div class="about__block">
-                  <div class="block__item">
-                     <div class="block__title title">This drives us</div>
-                     <div class="block__text txt">
-                        <p>
-                           Burning Man Project will bring experiences to people in grand, awe-inspiring and joyful ways that lift the human spirit, address social problems, and inspire a sense of culture, community, and civic engagement. Burning Man provides infrastructural tools and frameworks to support local communities in applying the Ten Principles through six interconnected program areas, including Arts, Civic Involvement, Culture, Education, Philosophical Center, and Social Enterprise.
-                        </p>
-                     </div>
-                  </div>
-                  <div class="block__image">
-                     <img src="img/img3.jpg" alt="Just image">
-                  </div>
-               </div>
+					<div class="content__image2">
+						<img src="img/img3.jpg" alt="Just image">
+					</div>
             </div>
          </div>
-      </div>
-   </div>
-   <!-- Footer -->
-   <footer class="footer">
-      <div class="footer__wrapper wrapper">
-         <div class="footer__box">
-            <div class="copyright txt">©1989-2022 burning man project</div>
-         </div>
-      </div>
-   </footer>
+      </section>
+	</main>
+	<footer class="footer">
+		<div class="footer__wrapper">
+			<div class="footer__text">©1989-2022, Burning man project</div>
+		</div>
+	</footer>
+</div>
+<script src="js/script.js"></script>
 </body>
 </html>
