@@ -62,7 +62,7 @@ flex: 1 1 auto;
 
 /* header */
 .header {
-position: absolute;
+position: fixed;
 width: 100%;
 top: 0;
 left: 0;
@@ -71,8 +71,8 @@ z-index: 13;
 .header__wrapper {
 display: flex;
 align-items: center;
-/* justify-content: space-between; */
 min-height: 160px;
+
 }
 .header__logo{
 margin: 0 5.7% 0 0;

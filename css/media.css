@@ -34,7 +34,7 @@ justify-content: center;
 transition: left 0.3s ease 0s;
 background: url(../img/header__bg.jpg);
 background-size: cover;
-overflow: auto;
+overflow: scroll;
 }
 .menu__list{
 flex-direction: column;
